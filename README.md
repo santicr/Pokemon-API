@@ -32,15 +32,15 @@ For cloning my project: <br>
 
 ## Api endpoints
 These all are urls that works: <br>
-This endpoint is for register a new user: http://127.0.0.1:8000/api/1.0/register/ <br>
-This endpoint is for login with registered user: http://127.0.0.1:8000/api/1.0/login/ <br>
-This endpoint is for logout when user is logged: http://127.0.0.1:8000/api/1.0/logout/ <br>
-This endpoint is for fetch all user pokemons: http://127.0.0.1:8000/api/1.0/pokemons/ <br>
-This endpoint is for fetch an user pokemon by it's id: http://127.0.0.1:8000/api/1.0/pokemons/1/ <br>
-This endpoint is for retrieve a random number from an existing API: http://127.0.0.1:8000/api/1.0/random/ <br>
+This endpoint is for register a new user: http://127.0.0.1:8000/api/1.0/register/ allowed_methods: POST<br>
+This endpoint is for login with registered user: http://127.0.0.1:8000/api/1.0/login/ allowed_methods: POST<br>
+This endpoint is for logout when user is logged: http://127.0.0.1:8000/api/1.0/logout/ allowed_methods: POST<br>
+This endpoint is for fetch all user pokemons: http://127.0.0.1:8000/api/1.0/pokemons/ allowed_methods: POST, GET<br>
+This endpoint is for fetch an user pokemon by it's id: http://127.0.0.1:8000/api/1.0/pokemons/1/ allowed_methods: POST, GET, DELETE<br>
+This endpoint is for retrieve a random number from an existing API: http://127.0.0.1:8000/api/1.0/random/ allowed_methods: GET<br>
 
 **IMPORTANT** <br>
-For user post requests copy the following as the request body:
+For login/register post requests copy the following as the request body:
 
 {
   "email": "mail@gmail.com",
@@ -58,3 +58,6 @@ For pokemon post/put requests copy the following as the request body:
   "user": "mail@gmail.com",
   "public": true
 }
+
+**REMEMBER**
+For register and login, you need an email and a password.
