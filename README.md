@@ -39,7 +39,7 @@ This endpoint is for fetch all user pokemons: http://127.0.0.1:8000/api/1.0/poke
 This endpoint is for fetch an user pokemon by it's id: http://127.0.0.1:8000/api/1.0/pokemons/1/ <br>
 This endpoint is for retrieve a random number from an existing API: http://127.0.0.1:8000/api/1.0/random/ <br>
 
-**IMPORTANT**
+**IMPORTANT** <br>
 For user post requests copy the followint as a body:
 
 {
