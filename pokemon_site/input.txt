@@ -1,0 +1,14 @@
+{
+  "email": "mail@gmail.com",
+  "password": "Mail12345@"
+}
+
+{
+  "race": "RareMixedWaterNFire",
+  "category": "Water and Fire",
+  "health": 50,
+  "defense": 50,
+  "special_attack": "Fire ball and water ball",
+  "user": "mail@gmail.com",
+  "public": true
+}

@@ -1,0 +1,29 @@
+{% extends 'core/base.html' %}
+
+{% block title %}
+Login
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <form method="POST" action="{% url 'api:api_user_login' %}">
+                {% csrf_token %}
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Dirección email</label>
+                    <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa el email">
+                    <small id="emailHelp" class="form-text text-muted">Nunca compartiremos esta información con alguien</small>
+                </div>
+                &nbsp;
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Contraseña</label>
+                    <input name="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                &nbsp;
+                <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}
