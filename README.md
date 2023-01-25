@@ -40,14 +40,14 @@ This endpoint is for fetch an user pokemon by it's id: http://127.0.0.1:8000/api
 This endpoint is for retrieve a random number from an existing API: http://127.0.0.1:8000/api/1.0/random/ <br>
 
 **IMPORTANT** <br>
-For user post requests copy the following as a body:
+For user post requests copy the following as the request body:
 
 {
   "email": "mail@gmail.com",
   "password": "Mail12345@"
 }
 
-For pokemon post/put requests copy the following as a body:
+For pokemon post/put requests copy the following as the request body:
 
 {
   "race": "RareMixedWaterNFire",
