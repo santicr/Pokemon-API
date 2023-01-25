@@ -1,7 +1,11 @@
+FOR USER:
+
 {
   "email": "mail@gmail.com",
   "password": "Mail12345@"
 }
+
+FOR POKEMON:
 
 {
   "race": "RareMixedWaterNFire",
