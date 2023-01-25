@@ -23,7 +23,7 @@ For cloning my project: <br>
 1. Sign in to GitHub.com and GitHub Desktop before you start to clone.
 2. Copy this link: https://github.com/santicr/Pokemon-API
 3. Go to this [link](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop) and **follow the tutorial from step #3**
-4. Once you finished, locate the folder with the project "Pokemon-API"
+4. Once you have finished, locate the folder with the project "Pokemon-API"
 5. Open CMD / Terminal and go to the "Pokemon-API" folder location
 6. Once you're there, just type <br> ``pip3 install -r requirements.txt`` <br> or <br> ``pip install -r requirements``
 7. Now, go to "pokemon_site" folder location using CMD / TERMINAL, then type: <br>
