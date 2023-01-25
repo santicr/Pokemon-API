@@ -26,8 +26,8 @@ For cloning my project: <br>
 4. Once you have finished, locate the folder with the project "Pokemon-API"
 5. Open CMD / Terminal and go to the "Pokemon-API" folder location
 6. Once you're there, just type <br> ``pip3 install -r requirements.txt`` <br> or <br> ``pip install -r requirements``
-7. Now, go to "pokemon_site" folder location using CMD / TERMINAL, then type: <br>
-``python manage.py runserver`` <br> or <br> ``python3.10 manage.py runserver``
+7. Now, go to "pokemon_site" folder location using CMD / TERMINAL, then type for Mac: <br>
+``python manage.py runserver`` <br> or <br> ``python3.10 manage.py runserver`` <br> For windows, type <br> ``py manage.py runserver``
 8. Done!
 
 ## Api endpoints
