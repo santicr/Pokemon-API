@@ -31,7 +31,7 @@ For cloning my project: <br>
 8. Done!
 
 ## Api endpoints
-These all are urls that works: <br>
+These are all urls that works: <br>
 This endpoint is for register a new user: http://127.0.0.1:8000/api/1.0/register/ allowed_methods: POST<br>
 This endpoint is for login with registered user: http://127.0.0.1:8000/api/1.0/login/ allowed_methods: POST<br>
 This endpoint is for logout when user is logged: http://127.0.0.1:8000/api/1.0/logout/ allowed_methods: POST<br>
